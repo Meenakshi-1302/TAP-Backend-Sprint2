@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.rts.tap.service.impl.admin.EmployeeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.050 s <<< FAILURE! -- in com.rts.tap.service.impl.admin.EmployeeServiceImplTest
+com.rts.tap.service.impl.admin.EmployeeServiceImplTest.testAddEmployee -- Time elapsed: 0.013 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.rts.tap.dao.LoginCredentialsDao.save(com.rts.tap.model.LoginCredentials)" because "this.loginCredentialsDao" is null
+	at com.rts.tap.serviceimplementation.EmployeeServiceImpl1.addEmployee(EmployeeServiceImpl1.java:50)
+	at com.rts.tap.service.impl.admin.EmployeeServiceImplTest.testAddEmployee(EmployeeServiceImplTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
